@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 51rem;
 }
 
 .instagram-continue {
@@ -51,7 +51,8 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    width: 100%;
+    width: 350px;
+    height: 339px;
     padding: 1.3rem 0;
     border: 1px solid lightgrey;
 }
@@ -61,7 +62,8 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 3.6rem;
+    margin-top: 1rem;
 }
 
 .profile-photo {
@@ -72,14 +74,15 @@ body {
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 7.3rem;
 }
 
 .instagram-login {
     background-color: #0095f6;
     color: #fff;
-    padding: 8px;
+    padding: 5.8px 30px;
     border-radius: 4px;
+    font-weight: 600;
 }
 
 .instagram-logout {
@@ -88,11 +91,13 @@ body {
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: #111;
+    margin-bottom: 1rem;
 }
 
 .link-blue {
     color: #0095f6;
+    font-weight: 600;
 }
 
 .get-the-app {
