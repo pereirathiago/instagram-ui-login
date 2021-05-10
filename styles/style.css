@@ -89,6 +89,7 @@ body {
 
 button.instagram-login {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .instagram-logout {
@@ -257,6 +258,10 @@ button.instagram-login {
   text-overflow: ellipsis;
 }
 
+.instagram-input:nth-child(1) {
+  margin-top: 1rem;
+}
+
 #password {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -298,6 +303,7 @@ button.instagram-login {
   align-items: center;
   justify-content: center;
   margin: 1rem;
+  margin-top: .5rem;
   color: #385185;
   font-weight: 600;
 }
@@ -305,4 +311,14 @@ button.instagram-login {
 .facebook-login img {
   width: 18px;
   margin-right: 0.5rem;
+}
+
+.instagram-logout {
+  display: flex;
+  color: #00376b;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 12px;
+  text-align: center;
+  justify-content: center;
 }
