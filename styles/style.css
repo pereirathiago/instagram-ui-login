@@ -84,8 +84,11 @@ body {
   padding: 5.8px 30px;
   border-radius: 4px;
   font-weight: 600;
-  width: 100%;
   border: 0;
+}
+
+button.instagram-login {
+  width: 100%;
 }
 
 .instagram-logout {
@@ -286,7 +289,6 @@ body {
 }
 
 .input-login:focus + .instagram-label-text,
-.input-login:not(:placeholder-shown) + .instagram-label-text
-{
-  transform:  translateY(-10px) scale(0.83333);
+.input-login:not(:placeholder-shown) + .instagram-label-text {
+  transform: translateY(-10px) scale(0.83333);
 }
