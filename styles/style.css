@@ -252,7 +252,7 @@ body {
   text-overflow: ellipsis;
 }
 
-.input-login#password {
+#password {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -272,4 +272,9 @@ body {
   overflow: hidden;
   pointer-events: none;
   position: absolute;
+}
+
+
+#instagram-login {
+  min-height: 27.2rem;
 }
