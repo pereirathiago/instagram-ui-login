@@ -292,3 +292,17 @@ button.instagram-login {
 .input-login:not(:placeholder-shown) + .instagram-label-text {
   transform: translateY(-10px) scale(0.83333);
 }
+
+.facebook-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  color: #385185;
+  font-weight: 600;
+}
+
+.facebook-login img {
+  width: 18px;
+  margin-right: 0.5rem;
+}
