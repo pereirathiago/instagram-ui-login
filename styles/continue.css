@@ -1,10 +1,10 @@
 .profile-photo {
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  
-  .profile-photo img {
-    height: 7.3rem;
-  }
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  height: 7.3rem;
+}

@@ -6,8 +6,6 @@
   height: 100%;
 }
 
-
-
 .input-login {
   background: #fafafa;
   background: rgba(var(--b3f, 250, 250, 250), 1);
@@ -29,12 +27,9 @@
   margin-bottom: 1rem;
 }
 
-
 #instagram-login {
   min-height: 27.2rem;
 }
-
-
 
 .facebook-login {
   display: flex;
@@ -64,5 +59,3 @@
 .instagram-continue {
   margin-top: 4rem;
 }
-
-
