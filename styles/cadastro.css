@@ -81,3 +81,7 @@ h2 {
     text-decoration: none;
     color: #8e8e8e;
 }
+
+.download {
+  width: 50% !important;
+}
