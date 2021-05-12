@@ -99,7 +99,7 @@ button.instagram-login {
 
 .not-account {
   color: #111;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .link-blue {
@@ -322,4 +322,19 @@ button.instagram-login {
   margin-top: 12px;
   text-align: center;
   justify-content: center;
+}
+
+.instagram-continue {
+  margin-top: 4rem;
+}
+
+.group:nth-child(2) {
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  height: 63px;
+}
+
+.group:nth-child(2) > p {
+  margin-right: 0.2rem;
 }
