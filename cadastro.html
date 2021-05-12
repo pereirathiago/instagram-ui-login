@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/responsivel.css">
     <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
-    <title>Instagram</title>
+    <title>Entrar • Instagram</title>
 </head>
 <body>
     <div class="instagram-wrapper">
@@ -17,11 +17,30 @@
             <div class="group">
                 <img src="./img/instagram-logo.png" alt="Instagram Logo" class="instagram-logo">
                 <div class="instagram-div-login">
+                    <h2>Cadastre-se para ver fotos e vídeos dos seus amigos</h2>
                     <form action="" method="POST" class="instagram-form">
+                        <button class="facebook-login">
+                            <span class="icon-facebook"><img src="img/facebook-icon.png" alt="Facebook Icon"></span>
+                            <span class="login-facebook-white">Entrar com o Facebook</span>
+                        </button>
+                        <hr class="hr-ou">
+
                         <div class="instagram-input">
                             <label for="" class="instagram-label">
-                                <input type="text" class="input-login" aria-label="Telefone, nome de usuário ou email" aria-required="true" placeholder="Telefone, nome de usuário ou email">
-                                <span class="instagram-label-text">Telefone, nome de usuário ou email</span>
+                                <input type="text" class="input-login" aria-label="Número do celular ou email" aria-required="true" placeholder="Telefone, nome de usuário ou email">
+                                <span class="instagram-label-text">Número do celular ou email</span>
+                            </label>
+                        </div>
+                        <div class="instagram-input">
+                            <label for="" class="instagram-label">
+                                <input type="text" class="input-login" aria-label="Nome completo" aria-required="true" placeholder="Telefone, nome de usuário ou email">
+                                <span class="instagram-label-text">Nome completo</span>
+                            </label>
+                        </div>
+                        <div class="instagram-input">
+                            <label for="" class="instagram-label">
+                                <input type="text" class="input-login" aria-label="Nome de usuário" aria-required="true" placeholder="Telefone, nome de usuário ou email">
+                                <span class="instagram-label-text">Nome de usuário</span>
                             </label>
                         </div>
                         <div class="instagram-input" id="password">
@@ -30,23 +49,18 @@
                                 <span class="instagram-label-text">Senha</span>
                             </label>
                         </div>
-                        <button href="#" class="instagram-login">Entrar</button><br>
-                        <br>
-                        <hr class="hr-ou">
+                        <button href="#" class="instagram-login">Cadastre-se</button><br>
 
-                        <div class="facebook-login">
-                            <img src="img/facebook-icon.png" alt="Facebook">
-                            <span>Entrar com o Facebook</span>
+                        <div id="termos">
+                            <span class="termos">Ao se cadastrar, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>.</span>
                         </div>
-
-                        <a href="#" class="instagram-logout">Esqueceu a senha?</a>
                     </form> 
                 </div>
             </div>
             <div class="group">
-                <p class="not-account">Não tem uma conta?</p>
+                <p class="not-account">Tem uma conta?</p>
                 <p class="not-account">
-                    <a href="cadastro.html" class="link-blue">Cadastre-se</a>
+                    <a href="cadastro.html" class="link-blue">Conecte-se</a>
                 </p>
             </div>
             <div class="get-the-app">

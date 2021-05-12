@@ -1,0 +1,83 @@
+body {
+    overflow: scroll;
+}
+
+.instagram-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.group {
+  height: 542px;
+  margin-top: 8em;
+}
+
+.instagram-div-login {
+  height: 100vh;
+  width: 80%;
+}
+
+h2 {
+  margin: auto;
+  margin-top: 1rem;
+  color: #8e8e8e;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  width: 80%;
+}
+
+.icon-facebook img {
+  height: 20px;
+  width: 20px;
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #0095f6;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  padding: 1px 9px;
+  margin-bottom: 1.5rem;
+}
+
+.input-login {
+  background: #fafafa;
+  background: rgba(var(--b3f, 250, 250, 250), 1);
+  border: 0;
+  flex: 1 0 auto;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  padding: 9px 0 7px 8px;
+  text-overflow: ellipsis;
+}
+
+.instagram-input {
+    margin-bottom: .5rem;
+}
+
+#termos {
+    text-align: center;
+}
+
+.termos {
+    color: #8e8e8e;
+    font-size: 12.5px;
+}
+
+.termos a {
+    font-size: 12.5px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #8e8e8e;
+}
