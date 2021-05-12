@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 697px) {
   body {
     background-color: #fff;
   }
@@ -19,5 +19,18 @@
   }
   .group {
     border: 1px solid transparent;
+  }
+}
+
+@media (min-width: 698px) and (max-width: 1020px) {
+  .instagram-phone {
+    width: 80%;
+    margin-top: 20rem;
+  }
+}
+
+@media (min-width: 690px) {
+  .download {
+    width: 100% !important;
   }
 }
