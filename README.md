@@ -5,6 +5,7 @@
 - [Sobre](#sobre)
 - [Modificações](#modif)
 - [Tecnologias Utilizadas](#tecnologias)
+- [Screenshots](#screenshots)
 - [Como Executar o rojeto](#executar)
 - [Como Contribuir](#contribuir)
 - [License](#license)
@@ -43,6 +44,23 @@ A ideia inicial de modificação seria deixa o mais parecido possivel com a inte
 
 - HTML
 - CSS
+
+---
+
+<a id="screenshots"></a>
+
+# :framed_picture:	Screenshots
+
+<p align="center">
+
+  <img alt="Desktop Continuar Tela" src=".github/desktop-continuar.png" height="250px">
+  <img alt="Desktop Login Tela" src=".github/desktop-login.png" height="250px">
+  <img alt="Desktop Cadastrar Tela" src=".github/desktop-cadastrar.png" height="250px">
+  <img alt="Mobile Continuar Tela" src=".github/mobile-continuar.png" height="250px">
+  <img alt="Mobile Login Tela" src=".github/mobile-login.png" height="250px">
+  <img alt="Mobile Cadastrar Tela" src=".github/mobile-cadastrar.png" height="250px">
+
+</p>
 
 ---
 
